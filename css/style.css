@@ -1,0 +1,239 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body,
+  section,
+  h1 {
+    margin: 0;
+  }
+  
+
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+  }
+  .menu a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    flex: 0 1 100px;
+    font-family: monospace;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 70px 70px;
+    transition: all .2s ease-in-out;
+    
+  }
+
+  .menu a:hover{
+   border: 2px solid red;
+    transform:scale(1.2);
+   
+  }
+  
+  #accueil > h1 {
+  position: relative;
+  right: 300px;
+  font-size: calc(2vw + 1vh + 2vmin);
+   
+   font-family: monospace;
+
+  }
+  
+  #accueil {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/fond.png");
+    background-position:center;
+    background-size:cover;
+    font-family:monospace;
+    
+  }
+
+
+  #inscription {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/fond6.png");
+    background-position:center;
+    background-size:cover;
+    color: white;
+   
+  }
+  #galerie {
+   
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/fond2.png");
+    background-position:center;
+    background-size:cover;
+    color: white;
+    
+  }
+#photo{
+  font-family: monospace;
+  position: relative;
+  right: 400px;
+  bottom: 100px;
+  font-size: 1.9rem;
+}
+
+  #tableau {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/fond5.jpg");
+    background-position:center;
+    background-size:cover;
+  }
+  #video {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/fond3.png");
+    background-position:center;
+    background-size:cover;
+  }
+  #pied-page{
+    font-family: monospace;
+   color: white;
+   background-color:black;
+   align-items: flex-start;
+   padding-left: 10px;
+   font-size: 20px;
+   
+    
+  }
+ 
+
+ 
+  
+
+
+#accueil {
+   color: white;
+
+}
+
+#accueil > ul{
+  padding-bottom: 100px;
+}
+
+ 
+ul > li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+fieldset{
+  display: block;
+  margin-right: 849px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: monospace;
+}
+
+
+#e100t {
+  border: red 1px solid;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  transition: all .2s ease-in-out;
+
+  
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+ 
+}
+
+#e100t:hover{
+  transform:scale(1.1);
+
+
+}
+
+#équipe {
+  color: #fff;
+  font-family: monospace;
+  padding: 3px;
+  text-align: center;
+  
+}
+
+#colonne{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+#row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+li{
+  list-style: none;
+}
+
+
+/* tableau*/
+td {
+  color:white;
+  outline: 1px solid black;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+
+
+
+th[scope="col"] {
+  background-color:black;
+  color: #fff;
+}
+
+
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family:monospace;
+  font-size: 1.8rem;
+}
+
+input{
+  position: relative;
+  bottom: 10px;
+}

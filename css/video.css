@@ -1,0 +1,29 @@
+
+#vid{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+figure {
+display: inline-table;
+justify-content: space-between;
+align-items: center;
+margin: 5px;
+
+}
+
+
+figcaption {
+
+display: table-caption; 
+caption-side: bottom ;
+color: white;
+font-size: 1.3rem;
+font-family: monospace;
+}
+
+iframe{
+    max-width: 420px;
+    max-height: 280px;
+}
